@@ -149,8 +149,8 @@ h1 {
 }
 
 .status-row .pill {
-  min-height: 32px;
-  padding: 0 10px;
+  min-height: 28px;
+  padding: 0 8px;
   font-size: 0.74rem;
 }
 
@@ -936,9 +936,9 @@ textarea:focus {
 
 .notes-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 1fr);
   gap: 16px;
-  align-items: stretch;
+  align-items: start;
 }
 
 .note-card,
